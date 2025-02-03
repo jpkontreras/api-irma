@@ -1,0 +1,77 @@
+---
+description: scope of the project
+globs: 
+---
+IRMA Restaurant Management System - MVP Specifications
+Project Context
+
+Small restaurant in a food court with unreliable power
+Currently using paper-based order system
+2 waitresses handle orders
+5 tables (2 exterior, 3 interior) plus bar area
+Thermal printer used for orders
+Orders also received from other food court stands
+
+Core Functionality Requirements
+Staff Access
+
+PIN-based login for waitresses and kitchen staff
+Different views for waiters and kitchen
+Quick user switching for shared devices
+
+Table Management
+
+Digital representation of restaurant layout
+Basic table status (available/occupied)
+Table assignment to orders
+
+Menu Management
+
+Basic item listing with prices
+Item categorization
+Quick item availability updates
+Offline menu access
+
+Order Processing
+
+Digital order creation
+Item selection with quantities
+Special instructions per item
+Order queue management
+Status tracking (received, preparing, ready)
+Order modifications before kitchen processing
+Thermal printer integration for kitchen tickets
+
+Offline Operations
+
+Full functionality without internet
+Local data storage
+Automatic sync when connection returns
+No data loss during power outages
+
+Kitchen Display
+
+Active order queue
+Order status updates
+Simple priority system
+Clear order completion marking
+
+Success Criteria
+
+System works reliably without internet
+Faster than current paper system
+No orders lost during power outages
+Kitchen receives clear, printed orders
+Waitresses can operate system with minimal training
+Order statuses clearly visible to all staff
+
+Out of Scope for MVP
+
+Payment processing
+Customer-facing features
+Inventory management
+Advanced reporting
+Multiple restaurant locations
+Delivery integration
+Reservation system
+Complex menu variations
