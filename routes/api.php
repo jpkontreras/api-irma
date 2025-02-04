@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-use App\Http\Controllers\Api\V1\AuthController;
-use App\Http\Controllers\Api\V1\MenuItemController;
-use App\Http\Controllers\Api\V1\OrderController;
-use App\Http\Controllers\Api\V1\RestaurantController;
-use App\Http\Controllers\Api\V1\StaffController;
-use App\Http\Controllers\Api\V1\TableController;
-use App\Http\Controllers\Api\V1\OrderItemController;
+use App\Http\Controllers\V1\AuthController;
+use App\Http\Controllers\V1\MenuItemController;
+use App\Http\Controllers\V1\OrderController;
+use App\Http\Controllers\V1\RestaurantController;
+use App\Http\Controllers\V1\StaffController;
+use App\Http\Controllers\V1\TableController;
+use App\Http\Controllers\V1\OrderItemController;
 use Illuminate\Support\Facades\Route;
 
 /*
