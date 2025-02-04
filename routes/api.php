@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-use App\Http\Controllers\V1\AuthController;
+use App\Http\Controllers\V1\Auth\AuthController;
 use App\Http\Controllers\V1\MenuItemController;
 use App\Http\Controllers\V1\OrderController;
 use App\Http\Controllers\V1\RestaurantController;
@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Authentication routes
+Route::post('auth/register', [AuthController::class, 'register']);
 Route::post('auth/login', [AuthController::class, 'login']);
 Route::get('ok', function () {
     return response()->json([
